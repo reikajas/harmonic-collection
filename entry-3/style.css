@@ -33,7 +33,7 @@ body {
   }
   .parent {
     margin: auto;
-    width: 35%;
+    width: 40%;
     padding: 10px;
   }
   .title {
@@ -50,11 +50,9 @@ body {
     margin-right: auto;
     padding-top: 5%;
   }
-  .child-1 {
+  .child {
     display: inline-block;
-  }
-  .child-2 {
-    display: inline-block;
+    margin:10px;
   }
 
   .mao {
@@ -151,7 +149,7 @@ body {
 
   .thuc {
     position: relative;
-    height: 1644px;
+    height: 144px;
     width: 160px;
   }
   .thuc-description {
