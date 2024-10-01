@@ -52,13 +52,11 @@ body {
   .child {
     display: inline-block;
     margin:10px;
-  }
-
-  .mao {
     position: relative;
     height: 150px;
     width: 165px;
   }
+
   .mao-description {
     position: absolute;
     top: 0;
@@ -72,16 +70,11 @@ body {
     opacity: 0;
     transition: opacity .2s, visibility .2s;
   }
-  .mao:hover .mao-description {
+  .child:hover .mao-description {
     visibility: visible;
     opacity: 1;
   }
 
-  .hannah {
-    position: relative;
-    height: 144px;
-    width: 160px;
-  }
   .hannah-description {
     position: absolute;
     top: 0;
@@ -95,16 +88,11 @@ body {
     opacity: 0;
     transition: opacity .2s, visibility .2s;
   }
-  .hannah:hover .hannah-description {
+  .child:hover .hannah-description {
     visibility: visible;
     opacity: 1;
   }
 
-  .jisoo {
-    position: relative;
-    height: 160px;
-    width: 165px;
-  }
   .jisoo-description {
     position: absolute;
     top: 0;
@@ -118,16 +106,12 @@ body {
     opacity: 0;
     transition: opacity .2s, visibility .2s;
   }
-  .jisoo:hover .jisoo-description {
+  .child:hover .jisoo-description {
     visibility: visible;
     opacity: 1;
+
   }
 
-  .ennie {
-    position: relative;
-    height: 146px;
-    width: 160px;
-  }
   .ennie-description {
     position: absolute;
     top: 0;
@@ -141,16 +125,11 @@ body {
     opacity: 0;
     transition: opacity .2s, visibility .2s;
   }
-  .ennie:hover .ennie-description {
+  .child:hover .ennie-description {
     visibility: visible;
     opacity: 1;
   }
 
-  .thuc {
-    position: relative;
-    height: 165px;
-    width: 160px;
-  }
   .thuc-description {
     position: absolute;
     top: 0;
@@ -164,16 +143,11 @@ body {
     opacity: 0;
     transition: opacity .2s, visibility .2s;
   }
-  .thuc:hover .thuc-description {
+  .child:hover .thuc-description {
     visibility: visible;
     opacity: 1;
   }
 
-  .julie {
-    position: relative;
-    height: 144px;
-    width: 160px;
-  }
   .julie-description {
     position: absolute;
     top: 0;
@@ -187,7 +161,7 @@ body {
     opacity: 0;
     transition: opacity .2s, visibility .2s;
   }
-  .julie:hover .julie-description {
+  .child:hover .julie-description {
     visibility: visible;
     opacity: 1;
   }
