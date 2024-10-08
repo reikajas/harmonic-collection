@@ -67,7 +67,11 @@ body {
     background: #ff339c;
     color: #000000;
     visibility: hidden;
-    text-align: center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
     opacity: 0;
     transition: opacity .2s, visibility .2s;
   }
@@ -85,7 +89,11 @@ body {
     background: #ff339c;
     color: #000000;
     visibility: hidden;
-    text-align: center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
     opacity: 0;
     transition: opacity .2s, visibility .2s;
   }
@@ -103,7 +111,11 @@ body {
     background: #ff339c;
     color: #000000;
     visibility: hidden;
-    text-align: center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
     opacity: 0;
     transition: opacity .2s, visibility .2s;
   }
@@ -121,7 +133,11 @@ body {
     background: #ff339c;
     color: #000000;
     visibility: hidden;
-    text-align: center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
     opacity: 0;
     transition: opacity .2s, visibility .2s;
   }
@@ -139,7 +155,11 @@ body {
     background: #ff339c;
     color: #000000;
     visibility: hidden;
-    text-align: center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
     opacity: 0;
     transition: opacity .2s, visibility .2s;
   }
@@ -157,7 +177,11 @@ body {
     background: #ff339c;
     color: #000000;
     visibility: hidden;
-    text-align: center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
     opacity: 0;
     transition: opacity .2s, visibility .2s;
   }

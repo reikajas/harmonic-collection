@@ -61,18 +61,21 @@ img {
   width:160px;
   height:144px;
 }
+
   .mao-description {
     position: absolute;
     margin: auto;
     top: 0;
     bottom: 0;
-    left: 50%;
-    top: 50%;
+    left: 0;
     right: 0;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
     background: #ff339c;
     color: #000000;
     visibility: hidden;
-    /* text-align: center; */
     opacity: 0;
     transition: opacity .2s, visibility .2s;
   }
@@ -83,14 +86,18 @@ img {
 
   .hannah-description {
     position: absolute;
+    margin: auto;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
     background: #ff339c;
     color: #000000;
     visibility: hidden;
-    text-align: center;
     opacity: 0;
     transition: opacity .2s, visibility .2s;
   }
@@ -108,7 +115,11 @@ img {
     background: #ff339c;
     color: #000000;
     visibility: hidden;
-    text-align: center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
     opacity: 0;
     transition: opacity .2s, visibility .2s;
   }
@@ -126,7 +137,11 @@ img {
     background: #ff339c;
     color: #000000;
     visibility: hidden;
-    text-align: center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
     opacity: 0;
     transition: opacity .2s, visibility .2s;
   }
@@ -144,7 +159,11 @@ img {
     background: #ff339c;
     color: #000000;
     visibility: hidden;
-    text-align: center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
     opacity: 0;
     transition: opacity .2s, visibility .2s;
   }
@@ -162,7 +181,11 @@ img {
     background: #ff339c;
     color: #000000;
     visibility: hidden;
-    text-align: center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
     opacity: 0;
     transition: opacity .2s, visibility .2s;
   }
