@@ -4,10 +4,10 @@
 body {
     color: #271a13;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-image:linear-gradient(to bottom, rgba(255,0,0,0), rgb(0, 42, 255));
+    background-image:linear-gradient(to bottom, rgba(255,0,0,0), rgb(183, 255, 0));
   }
   h1 {
-    color: #ff339c;
+    color: #000000;
   }
   h2 {
     color: #000000;
@@ -33,7 +33,7 @@ body {
   }
   .parent {
     margin: auto;
-    width: 40%;
+    width: 60%;
     padding: 10px;
   }
   .title {
@@ -55,141 +55,9 @@ body {
     margin:10px;
     position: relative;
     height: 144px;
-    width: 160px;
+    width: 250px;
   }
 img {
   width:160px;
   height:144px;
 }
-
-  .mao-description {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items: center;
-    background: #ff339c;
-    color: #000000;
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity .2s, visibility .2s;
-  }
-  .child:hover .mao-description {
-    visibility: visible;
-    opacity: 1;
-  }
-
-  .hannah-description {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items: center;
-    background: #ff339c;
-    color: #000000;
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity .2s, visibility .2s;
-  }
-  .child:hover .hannah-description {
-    visibility: visible;
-    opacity: 1;
-  }
-
-  .jisoo-description {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #ff339c;
-    color: #000000;
-    visibility: hidden;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items: center;
-    margin: auto;
-    opacity: 0;
-    transition: opacity .2s, visibility .2s;
-  }
-  .child:hover .jisoo-description {
-    visibility: visible;
-    opacity: 1;
-  }
-
-  .ennie-description {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #ff339c;
-    color: #000000;
-    visibility: hidden;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items: center;
-    margin: auto;
-    opacity: 0;
-    transition: opacity .2s, visibility .2s;
-  }
-  .child:hover .ennie-description {
-    visibility: visible;
-    opacity: 1;
-  }
-
-  .thuc-description {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #ff339c;
-    color: #000000;
-    visibility: hidden;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items: center;
-    margin: auto;
-    opacity: 0;
-    transition: opacity .2s, visibility .2s;
-  }
-  .child:hover .thuc-description {
-    visibility: visible;
-    opacity: 1;
-  }
-
-  .julie-description {
-    position:absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #ff339c;
-    color: #000000;
-    visibility: hidden;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items: center;
-    margin: auto;
-    opacity: 0;
-    transition: opacity .2s, visibility .2s;
-  }
-  .child:hover .julie-description {
-    visibility: visible;
-    opacity: 1;
-  }
