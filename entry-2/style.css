@@ -34,7 +34,8 @@ body {
   }
   .parent {
     margin: auto;
-    width: 40%;
+    height: auto;
+    width: 38%;
     padding: 10px;
     display: flex;
   }

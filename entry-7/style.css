@@ -28,13 +28,13 @@ body {
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 1.2px;
   }
-
   
   .parent {
     margin: auto;
     height: auto;
-    width: 40%;
+    width: 38%;
     padding: 10px;
+    display: flex;
   }
   .title {
     display: block;
