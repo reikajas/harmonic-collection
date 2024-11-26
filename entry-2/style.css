@@ -60,6 +60,13 @@ body {
     height: 150px;
     width: 165px;
   }
+  .options {
+    margin: auto;
+    height: auto;
+    width: 80%;
+    padding: 30px;
+    display: flex;
+  }
 
   .mao-description {
     position: absolute;
