@@ -61,6 +61,16 @@ body {
     height: 144px;
     width: 160px;
   }
+  .options-parent {
+    margin: auto;
+    height: auto;
+    width:15%;
+    padding: 50px 0px;
+  }
+  .options-child {
+    display: inline-block;
+    margin:20px;
+  }
 
   .mao-description {
     position: absolute;
