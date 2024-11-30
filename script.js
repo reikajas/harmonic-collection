@@ -1,6 +1,12 @@
 // Log current storage on page load
 console.log(sessionStorage);
 
+
+let max = Math.max(parseInt(sessionStorage.a), parseInt(sessionStorage.b))
+console.log(max);
+console.log(Math.max(3, 3));
+
+
 // Set variables
 let selectionA = document.querySelector('#a');
 let selectionB = document.querySelector('#b');
@@ -32,3 +38,19 @@ selectionC.addEventListener('click', () => updateClickCount(selectionC));
 selectionD.addEventListener('click', () => updateClickCount(selectionD));
 selectionE.addEventListener('click', () => updateClickCount(selectionE));
 selectionF.addEventListener('click', () => updateClickCount(selectionF));
+
+// Result Calculation
+
+
+// let getResult = () => {
+
+//   let a = parseInt(sessionStorage.a);
+//   let b = parseInt(sessionStorage.b); 
+//   let c = parseInt(sessionStorage.c); 
+//   let d = parseInt(sessionStorage.d); 
+//   let e = parseInt(sessionStorage.e); 
+//   let f = parseInt(sessionStorage.f); 
+
+
+
+// }
