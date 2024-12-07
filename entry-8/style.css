@@ -6,7 +6,7 @@ body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-image:linear-gradient(to bottom, rgba(255,0,0,0), #ff339c);
   }
-  h1 {
+  .result-title {
     color: #000000;
     font-family: "pf-pixelscript", sans-serif;
     font-weight: 400;
@@ -35,7 +35,7 @@ body {
     width: 40%;
     padding: 20px;
   }
-  .title {
+  .result-title {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -49,7 +49,17 @@ body {
     margin-right: auto;
     padding-top: 5%;
   }
-  .child {
+  .result-image {
+    display: flex;
+    margin: 10px;
+    position: relative;
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .result-text {
     display: flex;
     margin: 10px;
     position: relative;
